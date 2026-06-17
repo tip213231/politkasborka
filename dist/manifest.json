@@ -13,10 +13,17 @@
     },
     {
       "path": "libraries.zip",
-      "hash": "64ddbe864c9ecf4c33af3a81ae2c873166021cce25983e3dfe25847995b600da",
-      "size": 159806518,
+      "hash": "8bdd5a5d2e25a992c83488be593ae388946b7f6eb1ff7cc3739ec81aa990d5b9",
+      "size": 134426331,
       "url": "https://github.com/tip213231/politkasborka/releases/download/v1.0.0/libraries.zip",
       "action": "extract"
+    },
+    {
+      "path": "manifest.json",
+      "hash": "4b1d313957ba7d27049fccac9060878fbca4b6ca860823c4d11b27988fd72d0c",
+      "size": 15037,
+      "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
+      "action": "none"
     },
     {
       "path": "bin/authlib-injector-1.2.5.jar",
