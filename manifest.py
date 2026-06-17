@@ -3,17 +3,18 @@ import hashlib
 import json
 
 # === НАСТРОЙКА ПУТЕЙ GITHUB ===
-GITHUB_USER = "tip213231"              # Твой ник на GitHub
-GITHUB_REPO = "politkasborka"  # Название твоего репозитория
-BRANCH = "main"                          # Ветка для обычных файлов
-RELEASE_TAG = "v1.0.0"                   # Тег релиза, куда ты загрузил .zip архивы
+GITHUB_USER = "tip213231"                # Твой новый ник на GitHub из ссылки
+GITHUB_REPO = "politkasborka"            # Название твоего репозитория
+RELEASE_TAG = "v1.0.0"                   # Тег релиза, куда загружены .zip архивы
 
-TARGET_DIR = "dist"
-OUTPUT_FILE = "manifest.json"
+# Новый базовый URL для GitHub Pages (все файлы кроме тяжелых архивов)
+PAGES_URL = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/dist/"
 
-# Базовые URL для формирования ссылок
-RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{BRANCH}/"
+# URL для GitHub Releases (только для assets.zip и libraries.zip)
 RELEASE_URL = f"https://github.com/{GITHUB_USER}/{GITHUB_REPO}/releases/download/{RELEASE_TAG}/"
+
+TARGET_DIR = "my_server_dist"
+OUTPUT_FILE = "manifest.json"
 
 def calculate_sha256(file_path):
     """Считает SHA-256 хэш файла блоками"""
@@ -25,7 +26,7 @@ def calculate_sha256(file_path):
 
 def generate_manifest():
     manifest = {
-        "version": "1.0.0", # Меняй версию (например, 1.0.1) при каждом обновлении модов
+        "version": "1.0.0", # Не забывай повышать версию при обновлении модов!
         "minecraft_version": "1.20.1",
         "main_class": "net.minecraft.client.main.Main",
         "jvm_args": "-Xmx4G -XX:+UseG1GC",
@@ -34,8 +35,7 @@ def generate_manifest():
 
     # Обходим файлы в папке сборки
     for root, dirs, files in os.walk(TARGET_DIR):
-        # Игнорируем распакованные папки assets и libraries на всякий случай,
-        # чтобы они случайно не попали в манифест, если ты забыл их удалить.
+        # Игнорируем распакованные папки ассетов и библиотек, если они случайно остались
         if "assets" in root.split(os.sep) or "libraries" in root.split(os.sep):
             continue
 
@@ -49,14 +49,14 @@ def generate_manifest():
             file_size = os.path.getsize(full_path)
             
             # РАСПРЕДЕЛЕНИЕ ССЫЛОК:
-            # Если файл — это один из наших тяжелых архивов
             if relative_path in ["assets.zip", "libraries.zip"]:
+                # Тяжелые архивы по-прежнему тянем из Релизов
                 file_url = f"{RELEASE_URL}{relative_path}"
-                action = "extract"  # Сигнал для Rust: после скачивания распаковать!
+                action = "extract"
             else:
-                # Все остальные файлы (моды, конфиги, джарник игры) тянутся из репозитория напрямую
-                file_url = f"{RAW_URL}{relative_path}"
-                action = "none"     # Сигнал для Rust: просто скачать и положить по пути
+                # ВСЕ остальное скачивается через быстрый GitHub Pages!
+                file_url = f"{PAGES_URL}{relative_path}"
+                action = "none"
 
             print(f"Добавлен файл: {relative_path}")
             print(f"  └─ Ссылка: {file_url}")
@@ -74,7 +74,7 @@ def generate_manifest():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
         
-    print(f" Успех! {OUTPUT_FILE} сгенерирован под новую структуру GitHub.")
+    print(f" Успех! {OUTPUT_FILE} сгенерирован под GitHub Pages.")
 
 if __name__ == "__main__":
     generate_manifest()
