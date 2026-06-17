@@ -325,13 +325,6 @@
       "size": 333901,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/visual_recipe_editor-1.2.1-neoforge-1.21.1.jar",
       "action": "none"
-    },
-    {
-      "path": "client/mods/vvp-1.21.1-0.2.1.jar",
-      "hash": "777ec09de750309740e9ffc3f2a7331efd6d16bf699969b2ee8915cec5a90906",
-      "size": 24931074,
-      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/vvp-1.21.1-0.2.1.jar",
-      "action": "none"
     }
   ]
 }
