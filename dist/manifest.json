@@ -20,8 +20,8 @@
     },
     {
       "path": "manifest.json",
-      "hash": "c38afdc630b58dbe786c0e8834a909730cd75e4b66fa118c70e9cb6deef52d8b",
-      "size": 15320,
+      "hash": "0b1842ad430dba0803a3f56711e6d02e2a7ebaba4309e7a06775e52344132e99",
+      "size": 15625,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
     },
@@ -338,6 +338,13 @@
       "hash": "d3988a1351b755e7f8e23d1d801c7e68234e6a0a68d445bfe739f1ef70a59fd0",
       "size": 333901,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/visual_recipe_editor-1.2.1-neoforge-1.21.1.jar",
+      "action": "none"
+    },
+    {
+      "path": "client/mods/vvp-1.21.1-0.2.1.jar",
+      "hash": "777ec09de750309740e9ffc3f2a7331efd6d16bf699969b2ee8915cec5a90906",
+      "size": 24931074,
+      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/vvp-1.21.1-0.2.1.jar",
       "action": "none"
     }
   ]
