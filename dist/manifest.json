@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "assets.zip",
-      "hash": "cd54a008ba8cf324851253dabf061ae5e29237ce8b7404771c8152563a11105b",
-      "size": 745880413,
+      "hash": "d48873b7f9304ae30cd5ac05bc114adf8f96c1fa69a226cc0e3a28e66dbec618",
+      "size": 745880457,
       "url": "https://github.com/tip213231/politkasborka/releases/download/v1.0.0/assets.zip",
       "action": "extract"
     },
@@ -20,8 +20,8 @@
     },
     {
       "path": "manifest.json",
-      "hash": "8ef9f52f03cfb4ddc0be2b4f0e484913ebcf71291d9c92682c7db345794cf830",
-      "size": 15291,
+      "hash": "bebae53b1a0f9c98ff4da2e8ff41b0501a718eb2b391fccdd2187a3e6f641d47",
+      "size": 14996,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
     },
@@ -41,7 +41,7 @@
     },
     {
       "path": "client/options.txt",
-      "hash": "c6ad97280022b1b50965d2daf2e1cd1e9ac2e819e496e8de95f96e7ad9694a3b",
+      "hash": "0fe68f68d8d31e0f90dca6797bfcf6c7e0796b6ac1d5ad9a0dad13c73294c70c",
       "size": 3531,
       "url": "https://tip213231.github.io/politkasborka/dist/client/options.txt",
       "action": "none"
@@ -156,6 +156,13 @@
       "hash": "cb7064ca6ba0307524003e50040e09fbbd0f780930eda313f450999994ac6031",
       "size": 40003,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/earthrtp-1.1.0.jar",
+      "action": "none"
+    },
+    {
+      "path": "client/mods/emoji-type-2.2.7-1.21.1-neoforge.jar",
+      "hash": "93ef0141db99b4942f732ea488a15f5d9a4e14c3f8bea439f58fc274d6330f7c",
+      "size": 28916,
+      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/emoji-type-2.2.7-1.21.1-neoforge.jar",
       "action": "none"
     },
     {
