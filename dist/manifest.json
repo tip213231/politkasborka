@@ -20,7 +20,7 @@
     },
     {
       "path": "manifest.json",
-      "hash": "870bc15e89b6ad40ae18d4d57c194169a17ce71a782db4f814a9e70c6fb0d417",
+      "hash": "cf764f2b78d08c0c86106345f50ad362e272f281a43cbc7094c55a60f543c8a0",
       "size": 16216,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
@@ -251,8 +251,8 @@
     },
     {
       "path": "client/mods/pe_townymenu-1.0.0.jar",
-      "hash": "90f96927e9b93765c726bd405e9c9f225a016096c64fb956520777df2d15efd0",
-      "size": 52674,
+      "hash": "7f65431ea7be6c595c468b11a436b7749907a5d1860ddfc68087e1a7c70bf4b2",
+      "size": 51010,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/pe_townymenu-1.0.0.jar",
       "action": "none"
     },
