@@ -19,13 +19,6 @@
       "action": "extract"
     },
     {
-      "path": "manifest.json",
-      "hash": "52c450dd7d20249f0f27b9641dae74ea99793a53f952bebc4a80da5430a0278a",
-      "size": 15920,
-      "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
-      "action": "none"
-    },
-    {
       "path": "bin/authlib-injector-1.2.5.jar",
       "hash": "3bc9ebdc583b36abd2a65b626c4b9f35f21177fbf42a851606eaaea3fd42ee0f",
       "size": 341970,
@@ -247,6 +240,13 @@
       "hash": "2979a8a3f44e5d5df4f9f6315d18c220f3debf736bb8a2c2740acdfb13bd820f",
       "size": 46623,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+      "action": "none"
+    },
+    {
+      "path": "client/mods/pe_townymenu-1.0.0.jar",
+      "hash": "231f18212aa82de617fae59ee274ae868fd145c2596b2f1950a05be4c45425bc",
+      "size": 48707,
+      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/pe_townymenu-1.0.0.jar",
       "action": "none"
     },
     {
