@@ -332,6 +332,13 @@
       "size": 333901,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/visual_recipe_editor-1.2.1-neoforge-1.21.1.jar",
       "action": "none"
+    },
+    {
+      "path": "client/mods/watut-neoforge-1.21.0-1.2.7.jar",
+      "hash": "b1aac4b9832e16439ee86f27814f7b6a42f2f6bea0ea6949dfffffcd0599d88c",
+      "size": 432269,
+      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/watut-neoforge-1.21.0-1.2.7.jar",
+      "action": "none"
     }
   ]
 }
