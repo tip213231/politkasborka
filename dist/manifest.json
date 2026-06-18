@@ -19,6 +19,13 @@
       "action": "extract"
     },
     {
+      "path": "manifest.json",
+      "hash": "9a69f609eb4a748bc233bf7733ec47fcd01b390bc90736d1271a945a8e7400f3",
+      "size": 15962,
+      "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
+      "action": "none"
+    },
+    {
       "path": "bin/authlib-injector-1.2.5.jar",
       "hash": "3bc9ebdc583b36abd2a65b626c4b9f35f21177fbf42a851606eaaea3fd42ee0f",
       "size": 341970,
