@@ -20,7 +20,7 @@
     },
     {
       "path": "manifest.json",
-      "hash": "64a8e2e5205150717dcc77c44ed2f873af7b3eed597de097a9735088214cc2f4",
+      "hash": "7aabe84cc4073cba5a469907be4b5de0582135a44cf1b53da5640d4d6a18a7cd",
       "size": 15920,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
@@ -258,8 +258,8 @@
     },
     {
       "path": "client/mods/politempire_main-1.0.0.jar",
-      "hash": "725f4778d2c20dacc2aa510441929dd6d84b6d16241471f46aec66f3c623f945",
-      "size": 893313,
+      "hash": "518bcfe25ecc411ede0739736d67df8868c8bc0296dce47f52f778286fb71063",
+      "size": 898364,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/politempire_main-1.0.0.jar",
       "action": "none"
     },
