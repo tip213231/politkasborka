@@ -20,8 +20,8 @@
     },
     {
       "path": "manifest.json",
-      "hash": "bebae53b1a0f9c98ff4da2e8ff41b0501a718eb2b391fccdd2187a3e6f641d47",
-      "size": 14996,
+      "hash": "c38afdc630b58dbe786c0e8834a909730cd75e4b66fa118c70e9cb6deef52d8b",
+      "size": 15320,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
     },
@@ -254,6 +254,13 @@
       "hash": "7aeb3c49ba2e41459592c87630d2d9eb336ff36bdbbc2f45ca4f70156423ce79",
       "size": 49254,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/playerrevive-1.2.0-fix.jar",
+      "action": "none"
+    },
+    {
+      "path": "client/mods/politempire_main-1.0.0.jar",
+      "hash": "725f4778d2c20dacc2aa510441929dd6d84b6d16241471f46aec66f3c623f945",
+      "size": 893313,
+      "url": "https://tip213231.github.io/politkasborka/dist/client/mods/politempire_main-1.0.0.jar",
       "action": "none"
     },
     {
