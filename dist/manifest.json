@@ -20,7 +20,7 @@
     },
     {
       "path": "manifest.json",
-      "hash": "1f13d78c303d9855b4f143f649b901abba3f641f2a418e81c78bfae9c5b9f173",
+      "hash": "f18cd2006f59f7348e66459bbd8c0def6ca09832b02781a3c0514e2f97891330",
       "size": 16248,
       "url": "https://tip213231.github.io/politkasborka/dist/manifest.json",
       "action": "none"
@@ -251,8 +251,8 @@
     },
     {
       "path": "client/mods/pe_townymenu-neoforge-1.21.1-1.0.0.jar",
-      "hash": "c88c0c7bcf13ee297e2596b91c70db250571a97daaeb733bb6bf3a90e136b080",
-      "size": 15618,
+      "hash": "36b54196ab2fb79765ed8a2f53c49bf78d235656c466f5fef5bbab9e28e548f2",
+      "size": 16551,
       "url": "https://tip213231.github.io/politkasborka/dist/client/mods/pe_townymenu-neoforge-1.21.1-1.0.0.jar",
       "action": "none"
     },
